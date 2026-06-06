@@ -1,79 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Madhav J Nair</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="header-inner">
-      <h1 class="site-name">Madhav J Nair</h1>
-      <p class="tagline">Student at College of Engineering, Trivandrum</p>
-    </div>
-    <nav class="main-nav" aria-label="Primary">
-      <ul>
-        <li><a href="./" class="nav-link active">Notes</a></li>
-        <li><a href="./projects.html" class="nav-link">Projects</a></li>
-        <li><a href="./research.html" class="nav-link">Research</a></li>
-        <li><a href="./about.html" class="nav-link">About</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="container">
-    <section id="intro" class="intro">
-      <p class="lead">I write concise notes and small experiments — short proofs, reproducible snippets, and design notes. Content-first, minimal scaffolding.</p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="notes" class="notes">
-      <h2 class="section-title">Recent notes</h2>
-      <ol class="notes-list">
-        <li><a href="#">On compactness in metric spaces</a> <span class="meta">— 2026‑05‑22</span></li>
-        <li><a href="#">A note on greedy algorithms</a> <span class="meta">— 2026‑04‑10</span></li>
-        <li><a href="#">On discrete Fourier methods for PDEs</a> <span class="meta">— 2026‑03‑02</span></li>
-      </ol>
-    </section>
-
-    <hr class="divider">
-
-    <section id="projects" class="projects">
-      <h2 class="section-title">Projects</h2>
-      <ul>
-        <li><a href="#">lightweight-calc — a tiny symbolic calculator</a></li>
-        <li><a href="#">notebook-utils — scripts for reproducible notes</a></li>
-      </ul>
-    </section>
-
-    <hr class="divider">
-
-    <section id="research" class="research">
-      <h2 class="section-title">Research</h2>
-      <p class="muted">Ongoing questions: compression bounds for structured matrices; stability of time-stepping schemes.</p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="about" class="about">
-      <h2 class="section-title">About</h2>
-      <p class="muted">I am a student of mathematics and computer science. This site is a personal notebook: sketches, references, and code.</p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="links">
-        <a href="https://github.com/" class="meta-link">GitHub</a>
-        <a href="/rss.xml" class="meta-link">RSS</a>
-        <a href="https://github.com/" class="meta-link">Source</a>
-      </div>
-      <div class="copyright">© <span id="year"></span> Firstname Lastname</div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Programming projects, mathematical research, and technical writing." />
+    <meta name="theme-color" content="#faf9f7" />
+    <title>CodeFromKerala - Programming & Research</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
